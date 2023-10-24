@@ -1,0 +1,1255 @@
+{
+  "config":{
+	"hw_platform": ["MTP", "Dragon", "Surf", "QRD", "YUDI"],
+	"soc_id": ["321", "339", "356", "415", "531", "530"]
+  },
+  "vl53l5_0":{
+	"owner": "sns_vl53l5",
+	".config":{
+	  "owner": "sns_vl53l5",
+	  "is_dri":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "hw_id":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "res_idx":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "sync_stream":{ "type": "int", "ver": "0",
+		"data": "0"
+	  }
+	}
+  },
+  "vl53l5_0_platform":{
+	"owner": "sns_vl53l5",
+	".config":{
+	  "owner": "sns_vl53l5",
+	  "bus_type":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "bus_instance":{ "type": "int", "ver": "0",
+		"data": "5"
+	  },
+	  "slave_config":{ "type": "int", "ver": "0",
+		"data": "41"
+	  },
+	  "i3c_address":{ "type": "int", "ver": "0",
+		"data": "10"
+	  },
+	  "min_bus_speed_khz":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "max_bus_speed_khz":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "reg_addr_type":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "dri_irq_num":{ "type": "int", "ver": "0",
+		"data": "34"
+	  },
+	  "irq_pull_type":{ "type": "int", "ver": "0",
+		"data": "3"
+	  },
+	  "irq_is_chip_pin":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "irq_drive_strength":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "irq_trigger_type":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "num_rail":{ "type": "int", "ver": "0",
+		"data": "2"
+	  },
+	  "rail_on_state":{ "type": "int", "ver": "0",
+		"data": "2"
+	  },
+	  "vdd_rail":{ "type": "str", "ver": "0",
+		"data": "/pmic/client/sensor_vdd"
+	  },
+	  "vddio_rail":{ "type": "str", "ver": "0",
+		"data": "/pmic/client/sensor_vddio_2"
+	  },
+	  "rigid_body_type":{ "type": "int", "ver": "0",
+	  "data": "0"
+	  }
+	},
+	".phy_params":{
+	  "owner": "sns_vl53l5",
+	  "InterruptTogglingTimeInUs":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "XtalkMargin":{ "type": "int", "ver": "3",
+		"data": "100"
+	  },
+	  "DSSTarget":{ "type": "int", "ver": "0",
+		"data": "25"
+	  },
+	  "StopPowerMode":{ "type": "int", "ver": "0",
+		"data": "1"
+	  }
+   },
+   ".hod_params": {
+	  "owner": "sns_vl53l5",
+	  "SensorRotation":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "Resolution":{ "type": "int", "ver": "0",
+		"data": "64"
+	  },
+	  "RangingPeriod":{ "type": "int", "ver": "0",
+		"data": "250"
+	  },
+	  "IntegrationTime":{ "type": "int", "ver": "0",
+		"data": "10"
+	  },
+	  "InvalidDistance":{ "type": "int", "ver": "0",
+		"data": "4000"
+	  },
+	  "AutonomousRangingPeriod":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "AutonomousIntegrationTime":{ "type": "int", "ver": "0",
+		"data": "5"
+	  },
+	  "AutonomousInterruptMode":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "ApproachDistanceMm":{ "type": "int", "ver": "0",
+		"data": "2000"
+	  },
+	  "WakeUpDistanceMm":{ "type": "int", "ver": "1",
+		 "data": "650"
+	  },
+	  "LockDistanceMm":{ "type": "int", "ver": "1",
+		 "data": "800"
+	  },
+	  "ApproachTimeoutMsec":{ "type": "int", "ver": "0",
+		 "data": "15000"
+	  },
+	  "TimeToAutonomousMsec":{ "type": "int", "ver": "0",
+		 "data": "5000"
+	  },
+	  "ObstructedFoVDistThreshold":{ "type": "int", "ver": "0",
+		 "data": "40"
+	  },
+	  "StaticCloseObjectMaxDistance":{ "type": "int", "ver": "0",
+		 "data": "40"
+	  },
+	  "LockTimeAfterTrkLostMsec":{ "type": "int", "ver": "0",
+		 "data": "8000"
+	  },
+	  "LockTimeAfterSceneChangeMsec":{ "type": "int", "ver": "0",
+		 "data": "120000"
+	  },
+	  "LockTimeObstructedFoVMsec":{ "type": "int", "ver": "0",
+		 "data": "2000"
+	  },
+	  "LockTimeStaticCloseObjectMsec":{ "type": "int", "ver": "0",
+		 "data": "10000"
+	  },
+	  "LockTimeNoTargetMsec":{ "type": "int", "ver": "0",
+		 "data": "1000"
+	  },
+	  "MinimumLockTimeMsec":{ "type": "int", "ver": "3",
+		 "data": "10000"
+	  },
+	  "ActiveZonesMap_0_31":{ "type": "int", "ver": "0",
+		 "data": "0XFFFFFFFF"
+	  },
+	  "ActiveZonesMap_32_63":{ "type": "int", "ver": "0",
+		 "data": "0XFFFFFFFF"
+	  },
+	  "AutonomousActiveZonesMap_0_31":{ "type": "int", "ver": "0",
+		 "data": "0XFFFFFFFF"
+	  },
+	  "AutonomousActiveZonesMap_32_63":{ "type": "int", "ver": "0",
+		 "data": "0XFFFFFFFF"
+	  },
+	  "SensorModule":{ "type": "int", "ver": "0",
+		"data": "0"
+	  },
+	  "MinXSpeedDeparture":{ "type": "int", "ver": "0",
+		 "data": "500"
+	  },
+	  "ITA_MaxLeftDistance":{ "type": "int", "ver": "0",
+		 "data": "1700"
+	  },
+	  "ITA_MaxRightDistance":{ "type": "int", "ver": "0",
+		 "data": "1700"
+	  },
+	  "ITA_TimeToTriggerAlert":{ "type": "int", "ver": "0",
+		 "data": "2000"
+	  },
+	  "ITA_TimeToMaintainAlert":{ "type": "int", "ver": "0",
+		 "data": "2000"
+	  }  
+   },
+	".gesture":{
+	  "owner": "sns_vl53l5",
+	  "ranging_period":{ "type": "int", "ver": "0",
+		"data": "50"
+	  },
+	  "sensor_orientation":{ "type": "int", "ver": "0",
+		"data": "1"
+	  },
+	  "ranging_ignore_dmax_mm":{ "type": "int", "ver": "0",
+		"data": "850"
+	  },
+	  "lc_stable_threshold":{ "type": "int", "ver": "0",
+		"data": "2500"
+	  },
+	  "lc_stable_time_threshold":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "lc_maxDistance_mm":{ "type": "int", "ver": "0",
+		"data": "400"
+	  },
+	  "lc_minDistance_mm":{ "type": "int", "ver": "0",
+		"data": "100"
+	  },
+	  "gesture_selection":{ "type": "int", "ver": "0",
+		"data": "79"
+	  },
+	  "double_tap_ts_threshold":{ "type": "int", "ver": "1",
+		"data": "500"
+	  },
+	  "screening_ms":{ "type": "int", "ver": "0",
+		"data": "600"
+	  },
+	  "analysis_ms":{ "type": "int", "ver": "0",
+		"data": "200"
+	  },
+	  "dead_ms":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "closer_mm":{ "type": "int", "ver": "0",
+		"data": "20"
+	  },
+	  "min_speed_x_mm_s":{ "type": "int", "ver": "0",
+		"data": "500"
+	  },
+	  "min_speed_y_mm_s":{ "type": "int", "ver": "0",
+		"data": "600"
+	  },
+	  "min_speed_z_mm_s":{ "type": "int", "ver": "0",
+		"data": "600"
+	  },
+	  "max_speed_mm_s":{ "type": "int", "ver": "0",
+		"data": "2000"
+	  },
+	  "min_vx_vy":{ "type": "int", "ver": "0",
+		"data": "417"
+	  },
+	  "min_vx_vz":{ "type": "int", "ver": "0",
+		"data": "1000"
+	  },
+	  "min_vy_vx":{ "type": "int", "ver": "0",
+		"data": "1621"
+	  },
+	  "min_vy_vz":{ "type": "int", "ver": "0",
+		"data": "1200"
+	  },
+	  "min_vz_vx":{ "type": "int", "ver": "0",
+		"data": "2000"
+	  },
+	  "min_vz_vy":{ "type": "int", "ver": "0",
+		"data": "1118"
+	  }
+   },
+   ".range_test":{
+	  "owner": "sns_vl53l5",
+	  "RangingDistance":{ "type": "int", "ver": "0",
+		"data": "600"
+	  },
+	  "RangingDistanceTolerance":{ "type": "int", "ver": "0",
+		"data": "10"
+	  },
+	  "AmbientRateThreshold":{ "type": "int", "ver": "0",
+		"data": "10"
+	  },
+	  "XtalkThreshold":{ "type": "int", "ver": "0",
+		"data": "100"
+	  },
+	  "Version":{ "type": "int", "ver": "0",
+		"data": "0x030300"
+	  }
+   },
+	".physical_cal": {
+		"owner": "sns_vl53l5",
+		"0": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x40000054"
+		},
+		"1": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x5000300"
+		},
+		"2": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xc000d89f"
+		},
+		"3": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x60096003"
+		},
+		"4": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x2508080b"
+		},
+		"5": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x3080806"
+		},
+		"6": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4001e49f"
+		},
+		"7": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x716b0000"
+		},
+		"8": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x5f750000"
+		},
+		"9": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xcd7f0000"
+		},
+		"10": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4003509"
+		},
+		"11": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa0000000"
+		},
+		"12": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4000f89f"
+		},
+		"13": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x1d1d2525"
+		},
+		"14": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x404fc9f"
+		},
+		"15": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x884a0000"
+		},
+		"16": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xd7360000"
+		},
+		"17": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x642c0000"
+		},
+		"18": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x68280000"
+		},
+		"19": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x50220000"
+		},
+		"20": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x69210000"
+		},
+		"21": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa11e0000"
+		},
+		"22": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x2b1b0000"
+		},
+		"23": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xe57b0000"
+		},
+		"24": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x37450000"
+		},
+		"25": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x55350000"
+		},
+		"26": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa9290000"
+		},
+		"27": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xb3240000"
+		},
+		"28": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x1c250000"
+		},
+		"29": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x7e210000"
+		},
+		"30": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xaa1f0000"
+		},
+		"31": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa2b30000"
+		},
+		"32": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xde580000"
+		},
+		"33": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x743d0000"
+		},
+		"34": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x222e0000"
+		},
+		"35": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x7a2a0000"
+		},
+		"36": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xea260000"
+		},
+		"37": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x280000"
+		},
+		"38": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xe2240000"
+		},
+		"39": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xb6c20000"
+		},
+		"40": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4e650000"
+		},
+		"41": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x14410000"
+		},
+		"42": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xf9360000"
+		},
+		"43": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x572e0000"
+		},
+		"44": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x6b2c0000"
+		},
+		"45": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x5e2f0000"
+		},
+		"46": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x952a0000"
+		},
+		"47": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x53ba0000"
+		},
+		"48": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xe2600000"
+		},
+		"49": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xda3c0000"
+		},
+		"50": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x63350000"
+		},
+		"51": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa5300000"
+		},
+		"52": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa72f0000"
+		},
+		"53": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x7b2f0000"
+		},
+		"54": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x272c0000"
+		},
+		"55": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4a7c0000"
+		},
+		"56": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x31490000"
+		},
+		"57": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x9350000"
+		},
+		"58": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa5300000"
+		},
+		"59": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x612e0000"
+		},
+		"60": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x952d0000"
+		},
+		"61": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x102e0000"
+		},
+		"62": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa82a0000"
+		},
+		"63": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa4510000"
+		},
+		"64": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xe2380000"
+		},
+		"65": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x9d2e0000"
+		},
+		"66": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4c2a0000"
+		},
+		"67": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x3b290000"
+		},
+		"68": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x62b0000"
+		},
+		"69": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xec2f0000"
+		},
+		"70": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xff250000"
+		},
+		"71": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xd6440000"
+		},
+		"72": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x18300000"
+		},
+		"73": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x92260000"
+		},
+		"74": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x83230000"
+		},
+		"75": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x7d200000"
+		},
+		"76": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x1230000"
+		},
+		"77": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xb51f0000"
+		},
+		"78": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x31e0000"
+		},
+		"79": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x1fca0"
+		},
+		"80": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"81": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x3000000"
+		},
+		"82": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"83": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"84": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x10ca1"
+		},
+		"85": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"86": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x3000000"
+		},
+		"87": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"88": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"89": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xc0001ca1"
+		},
+		"90": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x5f750000"
+		},
+		"91": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x3509900c"
+		},
+		"92": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x25000000"
+		},
+		"93": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x20928a1"
+		},
+		"94": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"95": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"96": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"97": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"98": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x2002000"
+		},
+		"99": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xd300a401"
+		},
+		"100": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xf0010b02"
+		},
+		"101": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x17022002"
+		},
+		"102": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x1f02a801"
+		},
+		"103": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xc2005e00"
+		},
+		"104": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x2f001300"
+		},
+		"105": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x4000000"
+		},
+		"106": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"107": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"108": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"109": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"110": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"111": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"112": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"113": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"114": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"115": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"116": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"117": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"118": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"119": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"120": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"121": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"122": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"123": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"124": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"125": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"126": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"127": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"128": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"129": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"130": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"131": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"132": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"133": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"134": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"135": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"136": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"137": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"138": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"139": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"140": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"141": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"142": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"143": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"144": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"145": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"146": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"147": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"148": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"149": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"150": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"151": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"152": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"153": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"154": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"155": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"156": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"157": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"158": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"159": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"160": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"161": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"162": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"163": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"164": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"165": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"166": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x400048a2"
+		},
+		"167": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x8050000"
+		},
+		"168": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x81004ca2"
+		},
+		"169": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"170": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"171": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x810054a2"
+		},
+		"172": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"173": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"174": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x81005ca2"
+		},
+		"175": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"176": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"177": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x810064a2"
+		},
+		"178": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"179": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"180": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x84006ca2"
+		},
+		"181": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xbd960300"
+		},
+		"182": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x88700100"
+		},
+		"183": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xc00e0100"
+		},
+		"184": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x835f0200"
+		},
+		"185": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x56150200"
+		},
+		"186": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"187": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"188": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		},
+		"189": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x82008ca2"
+		},
+		"190": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xa4001"
+		},
+		"191": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x40014001"
+		},
+		"192": {
+			"type": "int",
+			"ver": "1",
+			"data": "0xf0000000"
+		},
+		"193": {
+			"type": "int",
+			"ver": "1",
+			"data": "0x0"
+		}
+	}
+  }
+}
