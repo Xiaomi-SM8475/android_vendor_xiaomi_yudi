@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/yudi
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/yudi/proprietary/vendor/bin/agmcap:$(TARGET_COPY_OUT_VENDOR)/bin/agmcap \
+    vendor/xiaomi/yudi/proprietary/vendor/bin/agmcompressplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmcompressplay \
+    vendor/xiaomi/yudi/proprietary/vendor/bin/agmplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmplay \
     vendor/xiaomi/yudi/proprietary/vendor/etc/audio/sku_cape/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/audio_effects.xml \
     vendor/xiaomi/yudi/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/yudi/proprietary/vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_overlay_static.xml \
@@ -63,6 +66,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/camera/com.qti.tuned.yudi_qtech_s5kjn1_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.yudi_qtech_s5kjn1_wide.bin \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/libSnpeHtpV73Stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSnpeHtpV73Stub.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagm_compress_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_compress_plugin.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagm_mixer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_mixer_plugin.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagm_pcm_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagm_pcm_plugin.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagmclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmclient.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagmdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmdevice.so \
+    vendor/xiaomi/yudi/proprietary/vendor/lib64/libagmmixer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagmmixer.so \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/xiaomi/yudi/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
